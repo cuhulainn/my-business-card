@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import {
-  IoLogoFacebook,
   IoLogoLinkedin,
   IoLogoGithub,
   IoLogoTwitter,
@@ -14,10 +12,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Connor McGinn&apos;s Business Card</title>
+        <title>Connor&apos;s Business Card</title>
         <meta
           name="description"
-          content="A professional business card for talented front end/full stack engineer Connor McGinn"
+          content="Connor's business card - React and Java software engineer"
         />
         <link
           rel="apple-touch-icon"
@@ -54,24 +52,40 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div>
-          <a href="https://www.linkedin.com/in/ConnorMcGinn">
+          <a
+            href="https://www.linkedin.com/in/ConnorMcGinn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <IoLogoLinkedin />
           </a>
         </div>
         <div>
-          <a href="https://github.com/cuhulainn">
+          <a
+            href="https://github.com/cuhulainn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <IoLogoGithub />
           </a>
         </div>
 
         <div>
-          <a href="https://twitter.com/ConnorMcGinn">
+          <a
+            href="https://twitter.com/ConnorMcGinn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <IoLogoTwitter />
           </a>
         </div>
 
         <div>
-          <a href="mailto:connor.mcginn@gmail.com">
+          <a
+            href="mailto:connor.mcginn@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <IoMail />
           </a>
         </div>
