@@ -2,8 +2,17 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Jura, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem;
 }
 
 a {
@@ -14,3 +23,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.headshot {
+  border-radius: 50%;
+}
+
+/* CSS HEX */
+/* --champagne: #e7d6bcff;
+--rich-black: #042a2bff;
+--dark-red: #960200ff;
+--copper-red: #ce6c47ff;
+--han-purple: #6320eeff; */
